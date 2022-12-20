@@ -13,7 +13,7 @@ if clients_input.upper() == 'Y':
     password_input = input("What is your current password? ")
 
     # checking password strength
-    if len(password_input) >= 12:
+    if len(password_input) >= 14:
         for i in password_input:
             if i in string.ascii_letters:
                 password_letters += 1
